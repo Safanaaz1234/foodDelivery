@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:#F8F9FA;
+    background:linear-gradient(to right,#ff7165,#ffb65d);
 }
 
 div.container{
@@ -44,7 +44,7 @@ div.container div.myform input{
 
 div.container div.myform button{
     color: white;
-    background-color: #007bff;
+    background:linear-gradient(to right,#ff7165,#ff7165);
     border: none;
     outline: none;
     border-radius: 2px;

@@ -19,7 +19,7 @@
                         <input type="hidden" name="Item_Name" value="Burger"/>
                         <input type="hidden" name="Price" value="200"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40'/>
-                        <button name="Add_To_Cart" type="submit"  id="burger" class="btn btn-info mt-2">Add To Cart</button>
+                        <button name="Add_To_Cart" type="submit"  id="burger" class="btn btn-danger mt-2">Add To Cart</button>
                         
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <input type="hidden" name="Item_Name" value="Sandwich"/>
                         <input type="hidden" name="Price" value="50"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40' />
-                        <button  name="Add_To_Cart"  id="sandwich" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart"  id="sandwich" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                         
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <input type="hidden" name="Item_Name" value="Spaghetti"/>
                         <input type="hidden" name="Price" value="450"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40' />
-                        <button  name="Add_To_Cart" id="spaghetti" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart" id="spaghetti" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                        
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <input type="hidden" name="Item_Name" value="Pasta"/>
                         <input type="hidden" name="Price" value="299"/>
                         <input type="number" name="Quantity" value="1"  class="text-center" min='1' max='40'/>
-                        <button  name="Add_To_Cart" id="pasta" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart" id="pasta" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                        
                     </div>
                 </div>

@@ -16,6 +16,13 @@
                 width:300px;
             }
         }
+        button{
+          background:linear-gradient(to left,#ff7165,#ff7168);
+          color:white;
+        }
+        button:hover{
+          background:linear-gradient(to right,#ff7165,#ffb65d);
+        }
     </style>
 </head>
 <body>
@@ -32,7 +39,7 @@
                         <input type="hidden" name="Item_Name" value="Margherita"/>
                         <input type="hidden" name="Price" value="199"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40'/>
-                        <button name="Add_To_Cart" type="submit"  id="margherita" class="btn btn-info mt-2">Add To Cart</button>
+                        <button name="Add_To_Cart" type="submit"  id="margherita" class="btn btn-danger mt-2">Add To Cart</button>
                         
                     </div>
                 </div>
@@ -48,7 +55,7 @@
                         <input type="hidden" name="Item_Name" value="Cheese"/>
                         <input type="hidden" name="Price" value="299"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40' />
-                        <button  name="Add_To_Cart"  id="cheese" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart"  id="cheese" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                         
                     </div>
                 </div>
@@ -64,7 +71,7 @@
                         <input type="hidden" name="Item_Name" value="Mexican Green Wave"/>
                         <input type="hidden" name="Price" value="239"/>
                         <input type="number" name="Quantity" value="1" class="text-center" min='1' max='40' />
-                        <button  name="Add_To_Cart" id="mexican green wave" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart" id="mexican green wave" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                        
                     </div>
                 </div>
@@ -80,7 +87,7 @@
                         <input type="hidden" name="Item_Name" value="Paratha"/>
                         <input type="hidden" name="Price" value="169"/>
                         <input type="number" name="Quantity" value="1"  class="text-center" min='1' max='40'/>
-                        <button  name="Add_To_Cart" id="paratha" type="submit" class="btn btn-info mt-2">Add To Cart</button>
+                        <button  name="Add_To_Cart" id="paratha" type="submit" class="btn btn-danger mt-2">Add To Cart</button>
                        
                     </div>
                 </div>
@@ -163,6 +170,9 @@
     if(page=="cart"){
                 window.location.href="mycart.php";
             }
+     else if(page=="menu"){
+      window.location.href="index.php";
+     }       
      else{    newPage = page+".php";
             window.location.href=newPage;}
   }

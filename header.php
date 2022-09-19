@@ -16,6 +16,15 @@
       .heading{
         color:red;
       }
+      #log-out{
+        background:linear-gradient(to right,#ff7165,#ffefb5);
+        color:white;
+        border:2px solid #ff7165;
+      }
+      #log-out:hover{
+          color:#ff7165;
+          background:white;
+        }
     </style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light sticky-top header">
@@ -30,14 +39,14 @@
    <div class="mt-1">
       <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link " href="home.php">Home</a>
+              <a class="nav-link text-danger" href="home.php">Home</a>
             </li>   
       </ul>
    </div> 
    <div class="mt-1">
       <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link heading" href="index.php">Menu</a>
+              <a class="nav-link heading text-danger" href="index.php">Menu</a>
             </li>   
       </ul>
    </div>   
@@ -48,7 +57,12 @@
       $count = count($_SESSION['cart']);
     }
     ?>
-    <a href="mycart.php" class="text-dark">Cart (<?php echo $count; ?>)</a> 
+    <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link heading text-danger" href="mycart.php">Cart (<?php echo $count; ?>)</a>
+            </li>   
+      </ul>
+    
   </div>
    <div class="mt-1">
       <?php 
@@ -58,7 +72,7 @@
           }
       ?>
       <form action="logout.php" method="POST">
-              <button type="submit" name="logout" class="btn btn-outline-info"><?php echo $userName;?> - Logout</button>    
+              <button type="submit" name="logout" class="btn" id="log-out"><?php echo $userName;?> - Logout</button>    
       </form>
    </div>
   </div>

@@ -21,7 +21,7 @@
                 padding:10px 15px;
                 margin:10px;
                 border-radius:5px;
-                background-color:#17a2b8;
+                background:linear-gradient(to right,#ff7165,#ff7165);
                 color:white;
                 }
     </style>

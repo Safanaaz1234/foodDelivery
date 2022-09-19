@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thankyou</title>
     <style>
-        *{
-            /* background: linear-gradient(to right,rgb(201, 234, 237),rgb(193, 237, 255)); */
-           
+        body{
            background-color: #F8F9FA;
         }
         .container{
@@ -16,8 +14,7 @@
             margin-top:6%;
         }
         button{
-            background:linear-gradient(to right,#2bd893,rgb(47, 169, 217));
-            /* background:linear-gradient(to right,#ff0909,rgb(9, 255, 0)); */
+            background:linear-gradient(to right,#ff7165,#ffefb5);
             border:none;
             outline: none;
             padding:15px 100px;
@@ -43,7 +40,7 @@
  src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
 <script>
   var alanBtnInstance = alanBtn({
-    key: "8af3e1d87c24881921cb123122c239032e956eca572e1d8b807a3e2338fdd0dc/stage",
+    key: "0f807f9c9f1b54d821cb123122c239032e956eca572e1d8b807a3e2338fdd0dc/stage",
     onCommand: function (commandData) {
       if (commandData.command === "goBack") {
         goBack();

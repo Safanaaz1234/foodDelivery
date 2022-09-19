@@ -97,7 +97,7 @@
                                 </label>
                             </div>
                             <br/>
-                        <button class="btn btn-primary btn-block" name="purchase">Make Purchase</button>
+                        <button class="btn  btn-block" name="purchase" style="background:linear-gradient(to right,#ff7165,#ffb65d); color:white;">Make Purchase</button>
                     </form>
                     <?php } ?>
                 </div>
@@ -247,7 +247,11 @@
         function goTo(page){
             if(page=="cart"){
                 window.location.href="mycart.php";
-            }else{
+            }
+            else if(page=="menu"){
+            window.location.href="index.php";
+            }  
+            else{
             newPage = page+".php";
             window.location.href=newPage;}
         }

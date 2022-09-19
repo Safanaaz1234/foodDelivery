@@ -9,13 +9,16 @@
     <title>User Register</title>
     <link rel="stylesheet" href="style.css">
     <style>
+         body{
+            background:linear-gradient(to right,#ff7165,#ffb65d);
+         }
         .link-to-login{
             margin-top:5%;
             color:grey;
         }
         .link-to-login > a{
             text-decoration:none;
-            color:blue;
+            color:#ff7165;
         }
     </style>
 </head>
