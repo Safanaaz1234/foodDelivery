@@ -1,7 +1,7 @@
 <?php  require('Login_Connection.php'); ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="background">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,11 @@
     <title>User Register</title>
     <link rel="stylesheet" href="style.css">
     <style>
-         body{
+        .background{
+           
             background:linear-gradient(to right,#ff7165,#ffb65d);
-         }
+            height:100%;
+           }
         .link-to-login{
             margin-top:5%;
             color:grey;
@@ -22,7 +24,7 @@
         }
     </style>
 </head>
-<body>
+<body >
     <div class="container">
         <div class="myform">
             <form  name="f1" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
